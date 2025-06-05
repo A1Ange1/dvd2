@@ -1,0 +1,26 @@
+#include <windows.h>
+
+5000 DIALOGEX 0, 0, 800, 600
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 10, "Segoe UI"
+BEGIN
+GROUPBOX        "Config Storage", 2000, 20, 20, 300, 60
+AUTORADIOBUTTON "Windows Registry", 1001, 40, 40, 130, 15, WS_GROUP
+AUTORADIOBUTTON "Local File", 1002, 200, 40, 100, 15
+
+GROUPBOX        "Options", 2001, 20, 100, 760, 200
+AUTOCHECKBOX    "Enable Logging", 1003, 40, 130, 180, 20
+AUTOCHECKBOX    "Auto-Attach Last Process", 1004, 260, 130, 200, 20
+AUTOCHECKBOX    "Show System Tray Icon", 1005, 500, 130, 200, 20
+AUTOCHECKBOX    "Enable Dry Run Mode", 1006, 40, 170, 180, 20
+
+LTEXT           "Process List Auto-Refresh (ms):", -1, 40, 210, 220, 20
+EDITTEXT        1007, 270, 210, 100, 20, ES_AUTOHSCROLL | ES_NUMBER
+
+LTEXT           "Default Injection Method:", -1, 40, 250, 220, 20
+COMBOBOX        1008, 270, 250, 200, 100, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+
+DEFPUSHBUTTON   "OK", IDOK, 500, 550, 120, 30
+PUSHBUTTON      "Cancel", IDCANCEL, 650, 550, 120, 30
+END

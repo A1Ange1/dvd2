@@ -1,0 +1,23 @@
+﻿  Building 'system_driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\system_driver.inf
+  Stamping [Version] section with DriverVer=06/04/2025,5.22.47.294
+  Queue.c
+  system_driver.vcxproj -> C:\Users\rashe\source\repos\system_driver\x64\Debug\system_driver.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\rashe\source\repos\system_driver\x64\Debug\system_driver.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\rashe\source\repos\system_driver\x64\Debug\system_driver\system_driver.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\rashe\source\repos\system_driver\x64\Debug\system_driver\system_driver.cat
+  
